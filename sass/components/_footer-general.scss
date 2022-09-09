@@ -1,0 +1,66 @@
+.footer {
+    display: block;
+    padding: 60px 0px;
+    background-color: #2F303A;
+
+    & .conteiner {
+        display: flex;
+        align-items: baseline;
+
+    }
+
+    &__logo {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    &-word {
+        font-family: 'Raleway';
+        font-style: var(--font-style);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--third-title-color);
+    }
+
+    &-address {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+        color: var(--third-title-color);
+        transition: color var(--main-transition);
+    }
+
+    &-tell,
+    &-mail {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.6);
+        transition: color var(--main-transition);
+    }
+
+    &-address:hover,
+    &-address:focus {
+        color: var(--interactive-elements-color);
+    }
+
+    &-mail:hover,
+    &-mail:focus {
+        color: var(--interactive-elements-color);
+    }
+
+    &-li {
+        margin-bottom: 9px;
+    }
+
+    &-tell:hover,
+    &-tell:focus {
+        color: var(--interactive-elements-color);
+    }
+}
+.adress-li {
+    margin-bottom: 9px;
+}

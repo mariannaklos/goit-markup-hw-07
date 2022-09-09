@@ -1,0 +1,130 @@
+@keyframes animation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+
+    &__conteiner {
+        display: flex;
+        align-items: center;
+
+    }
+
+}
+
+.navigation__item {
+    padding: 32px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+ .header__logo {
+     margin-right: 93px;
+ }
+
+ .navigation__list {
+     display: flex;
+     column-gap: 50px;
+ }
+
+.conteiner-header-div {
+    border-bottom: 1px;
+    padding: 0px 15px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header__logo,
+.footer__logo {
+    font-family: 'Raleway', 'cursive';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--interactive-elements-color);
+}
+
+.studia-title,
+.portfolio-title {
+
+    position: relative;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--interactive-elements-color);
+}
+
+.logo__word {
+    color: #000000;
+    transition: color var(--main-transition);
+
+    &:hover,
+    &:focus {
+        color: var(--interactive-elements-color);
+    }
+}
+
+
+.navigation__link {
+    padding: 32px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    transition: color var(--main-transition);
+
+    &:hover,
+    &:focus {
+        color: var(--interactive-elements-color);
+    }
+}
+
+.curent {
+    color: var(--interactive-elements-color);
+    position: relative;
+    padding-left: 2px;
+    padding-right: 2px;
+
+    &::after {
+        display: block;
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 4px;
+        background-color: var(--interactive-elements-color);
+        border-radius: 2px;
+        left: 0;
+        bottom: -1px;
+
+    }
+
+}
+
+.portfolio-title {
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
+    color: var(--interactive-elements-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+

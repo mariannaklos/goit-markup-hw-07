@@ -1,0 +1,89 @@
+.hero-general {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)),
+        url(../img/hero-bgphoto.jpg);
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 200px 0px;
+}
+.feedback__button {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--third-title-color);
+    background-color: var(--interactive-elements-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    border-color: transparent;
+
+    &:focus,
+    &:hover {
+        color: var(--third-title-color);
+        background-color: #188CE8;
+    }
+}
+
+.feedback__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--third-title-color);
+    max-width: 696px;
+    margin: 0 auto 30px;
+}
+.main-ul {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    column-gap: 8px;
+}
+.section-partfolio {
+    padding: 94px 0;
+}
+.main-button {
+    cursor: pointer;
+    border: transparent;
+    padding: 6px 22px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--main-title-color);
+    background-color: #F5F4FA;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--third-title-color);
+        background-color: var(--interactive-elements-color);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
+}
